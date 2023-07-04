@@ -1,0 +1,20 @@
+
+header img.imagenLogoHeader{
+    width: 130px;
+}
+.header{
+    background-color: rgb(179, 155, 125);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.header .iconos{
+    display: flex;
+    gap: 90px;
+}
+.iconos a:hover{
+    color: rgb(245, 240, 240);
+    border-bottom: 2px rgb(245, 240, 240) double;
+}
+
